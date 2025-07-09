@@ -6,6 +6,8 @@ place all the data in the base directory and run the python ; it will give 2 fol
 
 The precipitation_analyzer.py script processes Excel and CSV files to calculate column averages, specifically for yearly precipitation data.
 Here's a breakdown of what it does:
+The script's input directory is C:\Users\aaa\Desktop\all 30s.
+It creates two output subdirectories within this input directory: processed_excel_files and summary_averages.
 It reads Excel and CSV files from a specified input folder.
 It dynamically identifies columns containing year data by looking for "DAY" or "days" headers.
 For each identified year column, it calculates the average of the numerical data within that column.
